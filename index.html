@@ -1,0 +1,33 @@
+<!-- Debouncing in javascript
+Ques 1: Create an button UI and add debounce as follows
+            Show "button pressed <x> times" every time button is pressed
+            Increase "triggered <y> times" count after 800ms of debounce -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width:device-width;intial-scale:1.0" />
+    <title>Debouncing</title>
+  </head>
+  <body>
+    <div>
+      <h3>Debounce function</h3>
+      <h5>Click a button</h5>
+      <button class="button_press">Increment Btn</button>
+      <h2>Button pressed <span class="pressed_times">0</span> times</h2>
+      <h2>triggered <span class="triggered_times">0</span> times</h2>
+    </div>
+
+    <div>
+      <h3>throttle function</h3>
+      <h5>Click a button</h5>
+      <button class="button_throttle_press">click event Btn</button>
+      <h2>
+        Button pressed <span class="pressed_throttle_times">0</span> times
+      </h2>
+      <h2>triggered <span class="triggered_throttle_times">0</span> times</h2>
+    </div>
+    <script src="deboucing&throttleing.js"></script>
+  </body>
+</html>
